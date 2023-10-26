@@ -17,13 +17,19 @@ private func abbysBirthDate() -> Date {
     return userCalendar.date(from: dateComponents)!
 }
 
+private func calculateYears(interval: TimeInterval) -> Int {
+    Int(interval / 31536000)
+}
+
 func chapterOne() {
     // Your portion of the story goes here
     print("WHERE'S ABBY?")
     print()
+    print("Chapter 1")
+    print()
     print("Given that you're a friend of the Williams family, you know that ")
     print("Abigail was born blind on \(abbysBirthDate().description). Now that she's ")
-    print("TODO: Calculate Abby's age")
+    print("\(calculateYears(interval: Date().timeIntervalSince(abbysBirthDate())))-years-old ")
     print("and her older sister Michelle is going to university, ")
     print("Abby has decided that she needs to learn how to get around on her own. ")
     print("Abby's about to graduate from Cass Technical High School and has ")
