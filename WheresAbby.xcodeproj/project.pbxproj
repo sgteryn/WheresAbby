@@ -55,7 +55,7 @@
 			children = (
 				6110A7912AE0C84B009E18DB /* .gitignore */,
 				6110A7902AE07D8C009E18DB /* README.md */,
-				74E289BC2A7C21FC003072EC /* CLIStoryTemplate */,
+				74E289BC2A7C21FC003072EC /* WheresAbby */,
 				74E289BB2A7C21FC003072EC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,7 +68,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		74E289BC2A7C21FC003072EC /* CLIStoryTemplate */ = {
+		74E289BC2A7C21FC003072EC /* WheresAbby */ = {
 			isa = PBXGroup;
 			children = (
 				74E289BD2A7C21FC003072EC /* main.swift */,
@@ -78,7 +78,7 @@
 				74E289D12A7C2307003072EC /* Chapter 4 */,
 				74E289D22A7C230C003072EC /* Chapter 5 */,
 			);
-			path = CLIStoryTemplate;
+			path = WheresAbby;
 			sourceTree = "<group>";
 		};
 		74E289CE2A7C22DA003072EC /* Chapter 1 */ = {
@@ -156,7 +156,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 74E289B52A7C21FC003072EC /* Build configuration list for PBXProject "AboutAbby" */;
+			buildConfigurationList = 74E289B52A7C21FC003072EC /* Build configuration list for PBXProject "WheresAbby" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -329,7 +329,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		74E289B52A7C21FC003072EC /* Build configuration list for PBXProject "AboutAbby" */ = {
+		74E289B52A7C21FC003072EC /* Build configuration list for PBXProject "WheresAbby" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				74E289BF2A7C21FC003072EC /* Debug */,
