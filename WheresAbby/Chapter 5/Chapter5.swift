@@ -4,7 +4,11 @@
 //
 
 import Foundation
+// Teryn's part of the story goes here//
+
 
 func chapterFive() {
-    // some code
+    
+    
+    
 }
