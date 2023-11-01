@@ -21,6 +21,22 @@ private func calculateYears(interval: TimeInterval) -> Int {
     Int(interval / 31536000)
 }
 
+private func typeOfHotDay() -> String {
+    let now = Date()
+    let dateFormatter = DateFormatter()
+    dateFormatter.dateFormat = "LLLL"
+    let nameOfMonth = dateFormatter.string(from: now)
+    var typicalnessWord: String {
+        switch(nameOfMonth) {
+        case "June", "July", "August":
+            "typically"
+        default:
+            "uncharacteristically"
+        }
+    }
+    return "\(typicalnessWord) hot day in \(nameOfMonth)"
+}
+
 func chapterOne() {
     // Your portion of the story goes here
     print("WHERE'S ABBY?")
@@ -37,6 +53,6 @@ func chapterOne() {
     print("Abby was just given an iPhone, and it's been programmed ")
     print("with your phone number, (313) 555-9018.")
     print()
-    print("One day, Abby decided to go out in the town on her own.")
+    print("One \(typeOfHotDay()), Abby decided to go out in the town on her own.")
     print("\"Siri, take me downtown,\" she said to her iPhone.")
 }
