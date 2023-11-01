@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		612F6D372AF2EEAD00DABF81 /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612F6D362AF2EEAD00DABF81 /* PhoneNumber.swift */; };
+		612F6D442AF315CB00DABF81 /* WheresAbby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612F6D432AF315CB00DABF81 /* WheresAbby.swift */; };
+		612F6D492AF316BC00DABF81 /* PhoneNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612F6D482AF316BC00DABF81 /* PhoneNumberTests.swift */; };
 		74E289BE2A7C21FC003072EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E289BD2A7C21FC003072EC /* main.swift */; };
 		74E289C52A7C220C003072EC /* Chapter1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E289C42A7C220C003072EC /* Chapter1.swift */; };
 		74E289C72A7C2211003072EC /* Chapter2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E289C62A7C2211003072EC /* Chapter2.swift */; };
@@ -30,6 +33,10 @@
 /* Begin PBXFileReference section */
 		6110A7902AE07D8C009E18DB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6110A7912AE0C84B009E18DB /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		612F6D362AF2EEAD00DABF81 /* PhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumber.swift; sourceTree = "<group>"; };
+		612F6D412AF315CB00DABF81 /* WheresAbby.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheresAbby.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		612F6D432AF315CB00DABF81 /* WheresAbby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheresAbby.swift; sourceTree = "<group>"; };
+		612F6D482AF316BC00DABF81 /* PhoneNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberTests.swift; sourceTree = "<group>"; };
 		74E289BA2A7C21FC003072EC /* AboutAbby */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AboutAbby; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E289BD2A7C21FC003072EC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		74E289C42A7C220C003072EC /* Chapter1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter1.swift; sourceTree = "<group>"; };
@@ -40,6 +47,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		612F6D3E2AF315CB00DABF81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		74E289B72A7C21FC003072EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -50,12 +64,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		612F6D382AF3116400DABF81 /* WheresAbbyTests */ = {
+			isa = PBXGroup;
+			children = (
+				612F6D482AF316BC00DABF81 /* PhoneNumberTests.swift */,
+			);
+			path = WheresAbbyTests;
+			sourceTree = "<group>";
+		};
+		612F6D422AF315CB00DABF81 /* WheresAbby */ = {
+			isa = PBXGroup;
+			children = (
+				612F6D432AF315CB00DABF81 /* WheresAbby.swift */,
+			);
+			path = WheresAbby;
+			sourceTree = "<group>";
+		};
 		74E289B12A7C21FC003072EC = {
 			isa = PBXGroup;
 			children = (
+				612F6D382AF3116400DABF81 /* WheresAbbyTests */,
 				6110A7912AE0C84B009E18DB /* .gitignore */,
 				6110A7902AE07D8C009E18DB /* README.md */,
 				74E289BC2A7C21FC003072EC /* WheresAbby */,
+				612F6D422AF315CB00DABF81 /* WheresAbby */,
 				74E289BB2A7C21FC003072EC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				74E289BA2A7C21FC003072EC /* AboutAbby */,
+				612F6D412AF315CB00DABF81 /* WheresAbby.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,6 +110,7 @@
 				74E289D02A7C22FF003072EC /* Chapter 3 */,
 				74E289D12A7C2307003072EC /* Chapter 4 */,
 				74E289D22A7C230C003072EC /* Chapter 5 */,
+				612F6D362AF2EEAD00DABF81 /* PhoneNumber.swift */,
 			);
 			path = WheresAbby;
 			sourceTree = "<group>";
@@ -124,6 +158,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		612F6D402AF315CB00DABF81 /* WheresAbby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 612F6D452AF315CB00DABF81 /* Build configuration list for PBXNativeTarget "WheresAbby" */;
+			buildPhases = (
+				612F6D3D2AF315CB00DABF81 /* Sources */,
+				612F6D3E2AF315CB00DABF81 /* Frameworks */,
+				612F6D3F2AF315CB00DABF81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WheresAbby;
+			productName = WheresAbby;
+			productReference = 612F6D412AF315CB00DABF81 /* WheresAbby.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		74E289B92A7C21FC003072EC /* AboutAbby */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74E289C12A7C21FC003072EC /* Build configuration list for PBXNativeTarget "AboutAbby" */;
@@ -148,9 +199,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1430;
+				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					612F6D402AF315CB00DABF81 = {
+						CreatedOnToolsVersion = 15.0;
+					};
 					74E289B92A7C21FC003072EC = {
 						CreatedOnToolsVersion = 14.3;
 					};
@@ -170,16 +224,37 @@
 			projectRoot = "";
 			targets = (
 				74E289B92A7C21FC003072EC /* AboutAbby */,
+				612F6D402AF315CB00DABF81 /* WheresAbby */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		612F6D3F2AF315CB00DABF81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		612F6D3D2AF315CB00DABF81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				612F6D442AF315CB00DABF81 /* WheresAbby.swift in Sources */,
+				612F6D492AF316BC00DABF81 /* PhoneNumberTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		74E289B62A7C21FC003072EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				74E289BE2A7C21FC003072EC /* main.swift in Sources */,
+				612F6D372AF2EEAD00DABF81 /* PhoneNumber.swift in Sources */,
 				74E289CB2A7C2221003072EC /* Chapter4.swift in Sources */,
 				74E289C52A7C220C003072EC /* Chapter1.swift in Sources */,
 				74E289C72A7C2211003072EC /* Chapter2.swift in Sources */,
@@ -191,6 +266,45 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		612F6D462AF315CB00DABF81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.example.WheresAbby;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		612F6D472AF315CB00DABF81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.example.WheresAbby;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		74E289BF2A7C21FC003072EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -329,6 +443,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		612F6D452AF315CB00DABF81 /* Build configuration list for PBXNativeTarget "WheresAbby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				612F6D462AF315CB00DABF81 /* Debug */,
+				612F6D472AF315CB00DABF81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		74E289B52A7C21FC003072EC /* Build configuration list for PBXProject "WheresAbby" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
