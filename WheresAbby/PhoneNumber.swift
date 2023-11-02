@@ -21,9 +21,9 @@ struct PhoneNumber: CustomStringConvertible, Equatable, Hashable {
         "1 (\(areaCode)) \(prefix)-\(String(format: "%04d", line))"
     }
     
-    // TODO: Write test for this
+    // TODO: Write tests for this
     static func random(country: Int = 1, area: Int) -> PhoneNumber {
-        PhoneNumber(areaCode: 100, prefix: 100, line: 1)
+        PhoneNumber(areaCode: area, prefix: 100, line: 1)
     }
     
 }
