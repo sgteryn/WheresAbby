@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		612F6D372AF2EEAD00DABF81 /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612F6D362AF2EEAD00DABF81 /* PhoneNumber.swift */; };
-		612F6D442AF315CB00DABF81 /* WheresAbby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612F6D432AF315CB00DABF81 /* WheresAbby.swift */; };
-		612F6D492AF316BC00DABF81 /* PhoneNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612F6D482AF316BC00DABF81 /* PhoneNumberTests.swift */; };
+		618695372AF422590096F157 /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612F6D362AF2EEAD00DABF81 /* PhoneNumber.swift */; };
+		618695392AF4226A0096F157 /* PhoneNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612F6D482AF316BC00DABF81 /* PhoneNumberTests.swift */; };
 		74E289BE2A7C21FC003072EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E289BD2A7C21FC003072EC /* main.swift */; };
 		74E289C52A7C220C003072EC /* Chapter1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E289C42A7C220C003072EC /* Chapter1.swift */; };
 		74E289C72A7C2211003072EC /* Chapter2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E289C62A7C2211003072EC /* Chapter2.swift */; };
@@ -35,7 +35,6 @@
 		6110A7912AE0C84B009E18DB /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		612F6D362AF2EEAD00DABF81 /* PhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumber.swift; sourceTree = "<group>"; };
 		612F6D412AF315CB00DABF81 /* WheresAbby.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheresAbby.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		612F6D432AF315CB00DABF81 /* WheresAbby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheresAbby.swift; sourceTree = "<group>"; };
 		612F6D482AF316BC00DABF81 /* PhoneNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberTests.swift; sourceTree = "<group>"; };
 		74E289BA2A7C21FC003072EC /* AboutAbby */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AboutAbby; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E289BD2A7C21FC003072EC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -72,14 +71,6 @@
 			path = WheresAbbyTests;
 			sourceTree = "<group>";
 		};
-		612F6D422AF315CB00DABF81 /* WheresAbby */ = {
-			isa = PBXGroup;
-			children = (
-				612F6D432AF315CB00DABF81 /* WheresAbby.swift */,
-			);
-			path = WheresAbby;
-			sourceTree = "<group>";
-		};
 		74E289B12A7C21FC003072EC = {
 			isa = PBXGroup;
 			children = (
@@ -87,7 +78,6 @@
 				6110A7912AE0C84B009E18DB /* .gitignore */,
 				6110A7902AE07D8C009E18DB /* README.md */,
 				74E289BC2A7C21FC003072EC /* WheresAbby */,
-				612F6D422AF315CB00DABF81 /* WheresAbby */,
 				74E289BB2A7C21FC003072EC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -244,8 +234,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				612F6D442AF315CB00DABF81 /* WheresAbby.swift in Sources */,
-				612F6D492AF316BC00DABF81 /* PhoneNumberTests.swift in Sources */,
+				618695372AF422590096F157 /* PhoneNumber.swift in Sources */,
+				618695392AF4226A0096F157 /* PhoneNumberTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

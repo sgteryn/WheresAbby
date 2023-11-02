@@ -13,7 +13,7 @@ struct PhoneNumber: CustomStringConvertible, Equatable, Hashable {
     
     let areaCode: Int
     
-    let prefix: Int = 555
+    let prefix: Int
     
     let line: Int
     
