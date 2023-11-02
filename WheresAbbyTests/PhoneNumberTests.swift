@@ -26,6 +26,13 @@ final class PhoneNumberTests: XCTestCase {
         let actual = phoneNumber.description
         XCTAssertEqual(expected, actual)
     }
+    
+    func testRandom() {
+        let expected = Int.random(in: 200...650)
+        let phoneNumber = PhoneNumber.random(area: expected)
+        let actual = phoneNumber.areaCode
+        XCTAssertEqual(expected, actual)
+    }
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
