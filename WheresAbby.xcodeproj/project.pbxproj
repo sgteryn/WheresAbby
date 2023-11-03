@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		612F6D372AF2EEAD00DABF81 /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612F6D362AF2EEAD00DABF81 /* PhoneNumber.swift */; };
+		61814ED32AF5BA0600557A2F /* Semaphore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61814ED22AF5BA0600557A2F /* Semaphore.swift */; };
+		61814ED52AF5BA5D00557A2F /* SemaphoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61814ED42AF5BA5D00557A2F /* SemaphoreTests.swift */; };
 		618695372AF422590096F157 /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612F6D362AF2EEAD00DABF81 /* PhoneNumber.swift */; };
 		618695392AF4226A0096F157 /* PhoneNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612F6D482AF316BC00DABF81 /* PhoneNumberTests.swift */; };
 		74E289BE2A7C21FC003072EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E289BD2A7C21FC003072EC /* main.swift */; };
@@ -36,6 +38,8 @@
 		612F6D362AF2EEAD00DABF81 /* PhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumber.swift; sourceTree = "<group>"; };
 		612F6D412AF315CB00DABF81 /* WheresAbby.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheresAbby.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		612F6D482AF316BC00DABF81 /* PhoneNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberTests.swift; sourceTree = "<group>"; };
+		61814ED22AF5BA0600557A2F /* Semaphore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Semaphore.swift; sourceTree = "<group>"; };
+		61814ED42AF5BA5D00557A2F /* SemaphoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemaphoreTests.swift; sourceTree = "<group>"; };
 		74E289BA2A7C21FC003072EC /* AboutAbby */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AboutAbby; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E289BD2A7C21FC003072EC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		74E289C42A7C220C003072EC /* Chapter1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter1.swift; sourceTree = "<group>"; };
@@ -67,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				612F6D482AF316BC00DABF81 /* PhoneNumberTests.swift */,
+				61814ED42AF5BA5D00557A2F /* SemaphoreTests.swift */,
 			);
 			path = WheresAbbyTests;
 			sourceTree = "<group>";
@@ -101,6 +106,7 @@
 				74E289D12A7C2307003072EC /* Chapter 4 */,
 				74E289D22A7C230C003072EC /* Chapter 5 */,
 				612F6D362AF2EEAD00DABF81 /* PhoneNumber.swift */,
+				61814ED22AF5BA0600557A2F /* Semaphore.swift */,
 			);
 			path = WheresAbby;
 			sourceTree = "<group>";
@@ -235,6 +241,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				618695372AF422590096F157 /* PhoneNumber.swift in Sources */,
+				61814ED32AF5BA0600557A2F /* Semaphore.swift in Sources */,
+				61814ED52AF5BA5D00557A2F /* SemaphoreTests.swift in Sources */,
 				618695392AF4226A0096F157 /* PhoneNumberTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
