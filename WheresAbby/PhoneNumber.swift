@@ -38,7 +38,7 @@ struct PhoneNumber: CustomStringConvertible, Equatable, Hashable {
         var number = PhoneNumber(areaCode: area, prefix: 100, line: 0)
         var exclusionFlag = true
         while exclusionFlag {
-            number = PhoneNumber(areaCode: area, prefix: Int.random(in: 101...998), line: Int.random(in: 10...9989))
+            number = PhoneNumber(areaCode: area, prefix: 555, line: Int.random(in: 10...9989))
             exclusionFlag = includesExclusion(number)
         }
         return number

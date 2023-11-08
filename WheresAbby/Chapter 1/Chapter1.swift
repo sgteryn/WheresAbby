@@ -21,6 +21,8 @@ private func calculateYears(interval: TimeInterval) -> Int {
     Int(interval / 31536000)
 }
 
+private let abbysPhoneNumber = PhoneNumber.random(area: 313)
+
 private func typeOfHotDay() -> String {
     let now = Date()
     let dateFormatter = DateFormatter()
@@ -51,7 +53,8 @@ func chapterOne() {
     print("Abby's about to graduate from Cass Technical High School and has ")
     print("already been accepted to Wayne State University.")
     print("Abby was just given an iPhone, and it's been programmed ")
-    print("with your phone number, (313) 555-9018.")
+    print("with your phone number.")
+    print("Would you like to choose a ringtone for Abby's phone number, \(abbysPhoneNumber.description)?")
     print()
     print("One \(typeOfHotDay()), Abby decided to go out in the town on her own.")
     print("\"Siri, take me downtown,\" she said to her iPhone.")
