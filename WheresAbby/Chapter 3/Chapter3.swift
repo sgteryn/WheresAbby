@@ -15,7 +15,7 @@ func chapterThree() {
     let isAlone = true
     var isSilent = false
 //Optionals- I used an optional string in my safeArea variable because we do not yet know if our character is in a safe area or not.
-    let safeArea: String? = nil ?? "Abby is still not safe"
+    let safeArea: String? = nil ?? "Abby is still not safe."
     let bat = ScarysSounds.bat
     let water = ScarysSounds.water
     let cat = ScarysSounds.cat
@@ -42,6 +42,7 @@ tools.append("whistle")
         print("Her keen senses then picked up on \(cat.noise), which seemed to be a stray kitten")
     }
     stillLost()
+    print()
 //Enums- I made an enum for ScarySounds with cases being water, cat, and bat. As those will be the scary sounds she will encounter in this chapter.
     enum ScarysSounds {
         case  bat, cat, water
