@@ -14,17 +14,24 @@ func chapterFive() {
                     print()
                     print("Ten years later...")
                     print()
-                    print("As an official league of unlikely people emerges to gaurd the mystery realm and help maintain a somewhat ignorant bliss of balance in the main world. \(main.name) vetts hundreds of people using her ability to \(abbysAbility[1]) in people.")
-                    print(" \(main.name) is trying to figure out how to balance her personal life with the growing demands of her committments she has made to be a protector.")
-                    print("She has a beautiful family with her amazing husband \(supp1.nickName). He supports her endeavers wholeheartedly but he has no idea what all she endures.")
-    print("One regular afternoon, as \(main.name) turns the corner with her bedazzled walking stick in her \(DirectionOption.right) hand. Her senses are heightened.")
-    print("\(main.name) can feel the hairs on the back of her neck rise. She could feel the moisture evaporate from the air as even the wind got sharper. \(main.name) heard footsteps coming from the \(DirectionOption.left) of her. She could sense that this being wanted to cause her harm. \(abbyPaces(abbysPace: .turnAround))")
-    print("She needs to calm down and think quickly '\(main.catchPhrases[2])' she says to herself. She realizes she has just enough time to get help.")
-    for i in 0..<superCharacters.count {
-        print("'\(superCharacters[i].name)...'")
+                    print("As an official league of unlikely people emerges to guard the mystery realm and help maintain a somewhat ignorant bliss of balance in the main world. \(main.name) vets hundreds of people using her ability to \(abbysAbility[1]) in people.")
+                    print(" \(main.name) is trying to figure out how to balance her personal life with the growing demands of her commitments she has made to be a protector.")
+                    print("She has a beautiful family with her amazing husband \(supp1.nickName). He supports her endeavors wholeheartedly but he has no idea what all she endures.")
+    print("One regular afternoon, as \(main.name) turns the corner with the bedazzled walking stick her sister got her in her \(DirectionOption.right) hand. The air seemed to suddenly become unussually frigid and her senses are heightened.")
+    print("\(main.name) can feel the hairs on the back of her neck rise as the moisture evaporated from the air and the wind got even sharper. \(main.name) heard footsteps coming from the \(DirectionOption.left) of her. She could sense that this being wanted to cause her harm. \(abbyPaces(abbysPace: .turnAround))")
+    print("She needs to calm down and think quickly '\(main.catchPhrases[2])' She says to herself. She realizes she has just enough time to get help.")
+    for i in 0..<abbysCrew.count {
+        print("'\(abbysCrew[i].name)...'")
     }
     print("\(callAFriendForHelp(friend: 2))")
-    print("\(supp2.name) arrives within 3 minutes and just as she approaches the scene she \(main.name) is met with exactly what she feared.")
+    print()
+    print("\(supp2.name) arrives within 3 minutes. '\(supp2.catchPhrases[0])' she says as she arrives on the scene. Then just as she approaches the scene she \(main.name) is met with exactly what she feared.")
+    print("'I cant believe you would do this!' Abby shouted at her sister in dismay. 'Of all people, you should know how important it is to be a protector. But now look at you, you've become apart of the problem. \(supp5.nickName) please think about what you are doing.")
+    print("This is the kind of betrayal you never can prepare for, but somehow \(main.name) knew. Abby thought it was just intuition but in reality, she has \(mainSuperCharacter.superAbilities[2]). She doesn't realize this, but \(supp2.name) has already figured it out.")
+    print()
+    print()
+    print("To be continued...")
+    print()
                 }
 //struct of type Character
 struct Character{
@@ -51,9 +58,9 @@ struct Character{
     
 }
 // Create a SuperCharacter struct with:
-    // an array of superabilities
+    // an array of super Abilities
     // a supername
-    // a secred identity - the non super version of their character: Character
+    // a secret identity - the non super version of their character: Character
 
 struct SuperCharacter {
       var superAbilities: [String] = []
@@ -78,8 +85,8 @@ let supp8 = Character(name: "Alfreida", nickName: "Freida", inAbbysCrew: true)
 // 2. Create an array of characters
 var characters: [Character] = [ main , supp1, supp2, supp3, supp4, supp5, supp6, supp7, supp8 ]
 //3. Create an array of Super Abled charactes
-var superCharacters: [Character] = [main, supp2, supp4,]
-var abbysCrew: [Character] = []
+var superCharacters: [Character] = [main, supp2, supp4, supp5, supp6, supp8]
+var abbysCrew: [Character] = [main, supp2, supp4, supp8]
 
 var actions = ["listen", "talk", "pace", "call a friend for help"]
             
@@ -91,7 +98,7 @@ func callAFriendForHelp(friend: Int){
                 
         var friends = [ characters[4].name, characters[1].name, characters[2].name ]
                 
-        print("I'm going to call \(friends[friend]) for help")
+        print("I'm going to call \(friends[friend]) for help.")
             }
 //enum
 enum DirectionOption {
