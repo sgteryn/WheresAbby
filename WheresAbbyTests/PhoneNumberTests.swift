@@ -33,6 +33,33 @@ final class PhoneNumberTests: XCTestCase {
         let actual = phoneNumber.areaCode
         XCTAssertEqual(expected, actual)
     }
+    
+    func testRandomIsRandomEnough() {
+        let numberOfCalls = 100 + Int.random(in: 0...99)
+        let expected = 65 * numberOfCalls / 100
+        var givenNumbers: Set<PhoneNumber> = []
+        for _ in 1...numberOfCalls {
+            givenNumbers.insert(PhoneNumber.random(area: 313))
+        }
+        let actual = givenNumbers.count
+        XCTAssertGreaterThan(actual, expected)
+    }
+    
+    func testRandomPhoneNumberExclusions() {
+        let exclusions: [String] = ["000", "110", "616", "666", "911", "999"]
+        let numberOfCalls = 1000
+        let expected: Set<PhoneNumber> = []
+        var actual: Set<PhoneNumber> = []
+        for _ in 1...numberOfCalls {
+            let number = PhoneNumber.random(area: 313)
+            for excluded in exclusions {
+                if number.description.contains(excluded) {
+                    actual.insert(number)
+                }
+            }
+        }
+        XCTAssertEqual(expected, actual)
+    }
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
