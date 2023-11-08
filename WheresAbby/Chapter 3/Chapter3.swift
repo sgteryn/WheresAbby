@@ -12,10 +12,10 @@ func chapterThree() {
     let senses = ["hear", "hearing", "feel", "touch"]
     let directions = ["forward", "back", "left", "right", "up", "down"]
     var tools = ["iPhone", "flashlight"]
-    var isAlone = true
+    let isAlone = true
     var isSilent = false
 //Optionals- I used an optional string in my safeArea variable because we do not yet know if our character is in a safe area or not.
-    var safeArea: String? = nil ?? "Abby is still not safe"
+    let safeArea: String? = nil ?? "Abby is still not safe"
     let bat = ScarysSounds.bat
     let water = ScarysSounds.water
     let cat = ScarysSounds.cat
