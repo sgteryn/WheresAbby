@@ -26,3 +26,6 @@ afraid because she doesn't know where she is and what's going on. She begins to
 cry.
 
 We haven't yet decided on the ending, nor how to split it into chapters.
+
+**UPDATE**, November 14, 2023: We are moving this to 
+[a SwiftUI project](https://github.com/Leroywhitt/WheresAbbySwiftUIStory).
